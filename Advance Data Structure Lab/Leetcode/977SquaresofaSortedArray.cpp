@@ -1,0 +1,21 @@
+#include <bits\stdc++.h>
+using namespace std;
+
+
+class Solution {
+public:
+    vector<int> sortedSquares(vector<int>& nums) {
+        
+        for(int i =0; i< nums.size(); i++){
+            int x = nums[i];
+            nums[i]= x*x;
+        }
+
+        sort(nums.begin(), nums.end());
+        return nums;
+    }
+};
+
+int main(){
+
+}
