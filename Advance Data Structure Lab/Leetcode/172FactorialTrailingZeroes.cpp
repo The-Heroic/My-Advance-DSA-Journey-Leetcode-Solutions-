@@ -4,8 +4,14 @@ using namespace std;
 class Solution {
 public:
     int trailingZeroes(int n) {
-        long long num = n;
-        long long fResult = tgamma(n + 1);
+        int count = 0;
+
+        while (n > 0) {
+            count += n / 5;
+            n /= 5;
+        }
+
+        return count;
     }
 };
 
