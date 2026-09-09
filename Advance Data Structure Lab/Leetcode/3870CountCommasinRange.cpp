@@ -14,7 +14,6 @@ public:
         return totalCommas;
     }
 };
-
 int main(){
     
 }
