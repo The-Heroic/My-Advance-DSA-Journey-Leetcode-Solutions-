@@ -45,7 +45,7 @@ public:
 int main(){
     int n;
     cin>>n;
-    Solution sol;
+    Solution1 sol;
     int result = sol.climbStairs(n);
     cout<<result;
 
